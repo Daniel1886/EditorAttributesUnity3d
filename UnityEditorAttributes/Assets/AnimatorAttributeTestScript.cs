@@ -7,11 +7,13 @@ public class AnimatorAttributeTestScript : MonoBehaviour
     [AnimatorAnim]
     [SerializeField]
     private string moveLeftAnimation;
-    [AnimatorAnim]
+    [AnimatorAnim("childAnimator2")]
     [SerializeField]
     string moveUpAnimation;
-
-    [SerializeField] Animator childAnimator;
+    [Space]
+    [SerializeField] Animator childAnimator1;
+    [Space]
+    [SerializeField] Animator childAnimator2;
     void Start()
     {
         
