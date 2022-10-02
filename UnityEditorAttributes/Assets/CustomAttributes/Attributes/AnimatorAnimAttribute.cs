@@ -10,7 +10,7 @@ public class AnimatorAnimAttribute : PropertyAttribute
 
     public AnimatorAnimAttribute()
     {
-        
+              
     }
     public AnimatorAnimAttribute(string animatorPropertyName)
     {
